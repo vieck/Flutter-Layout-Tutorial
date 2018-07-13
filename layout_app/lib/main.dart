@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:layout_app/layouts/action.button.dart';
 import 'package:layout_app/layouts/title.dart';
 
 void main() => runApp(new MyApp());
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         ),
         body: ListView(
           children: <Widget>[
-            new TitleWidget()
+            new TitleWidget(),
+            new ActionButtonWidget(),
           ],
         ),
       ),
